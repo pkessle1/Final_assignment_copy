@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Nature Paradise|Contact</title>
+        <meta name="author" content="Kess Kessler">
+        <meta name="description" content="Final Project Contact page">
+
+        <!--Favicon-->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+        <!--stylesheet & contact-->
+        <link rel="stylesheet" href="obfuscator_styles.css">
+        <link rel="home_page" href="index.html">
+
+    </head>
+    
+    
+    <body>
+        <header>
+            <h1>Nature Paradise</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="accommodations">Accommodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hero-image">
+                <img class="swiss-valley" src="images/swiss-valley.jpg"
+                alt="image of a swiss valley">
+                
+            </div>
+        </header>
+
+        <main>
+            <section class="sec_1contact">
+            <h2>Contact us</h2>
+            <p>Please reach out to us with any questions or concerns.
+                We are happy to help you plan your dream vacation with us!(<span class="required">*</span>).</p>
+            <img class="swiss-sunset" src="images/swiss-peak.jpg"
+            alt="an image of swiss sunset">
+            </section>
+
+            <section class="sec_2contact">
+                <form action =" https://wp.zybooks.com/form-viewer.php"
+                method="POST" target="_blank">
+                    <label class="fullname" for="full-name">Full name</label>
+                    <input type="text" name="full-name" id="full-name" required>
+
+                    <label class="email-address" for="email-address">Email Address</label>
+                    <input type="text" name="email-address" id="email-address" required>
+
+                    <label class="phone-number" for="phone-number">Phone Number</label>
+                    <input type="tel" name="phone-number" id="phone-number" required>
+
+                    <fieldset>
+                        <legend>Preferred contact method</legend>
+
+                        <input type="radio" name="pref-email" id="pref-email">
+                        <label for="pref-email">Email</label>
+
+                        <input type="radio" name="pref-phone" id="pref-phone">
+                        <label for="pref-phone">Phone</label>
+                    </fieldset>
+
+                    <!--Comment-->
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments" required></textarea>
+                        
+
+                    <!--submit-->
+                    <input type="submit" name="submit_but" id="submit_but" 
+                    value="Submit">
+
+        
+                </form>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <p>
+                Copyright &copy;2023 - Nature Paradise
+            </p>
+            <p>
+                This site is for educational purpose only
+            </p>
+        </footer>
+
+    </body>
+
+</html>
